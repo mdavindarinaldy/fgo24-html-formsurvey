@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Survey Perokok</title>
+</head>
+<body>
+    <form>
+        <div>
+            <div><label for="fullName">Siapa nama anda?</label></div>
+            <input type="text" name="fullName" id="fullName">
+        </div>
+        <div>
+            <div><label for="age">Berapa umur anda?</label></div>
+            <input type="text" name="age" id="age">
+        </div>
+        <div>
+            <div>Apa jenis kelamin anda?</div>
+            <input type="radio" name="gender" value="men" id="gender1">
+            <label for="gender1">Laki-laki</label>
+            <input type="radio" name="gender" value="women" id="gender2">
+            <label for="gender2">Perempuan</label>
+        </div>
+        <div>
+            <div>Apakah anda perokok?</div>
+            <input type="radio" name="smoking" value="ya" id="smokeyes">
+            <label for="smokeyes">Ya</label>
+            <input type="radio" name="smoking" value="tidak" id="smokeno">
+            <label for="smokeno">Tidak</label>
+        </div>
+        <div>
+            <div>Jika anda perokok, rokok apa yang anda pernah coba?</div>
+            <div>
+                <input type="checkbox" name="GGF" value="GGF" id="GGF">
+                <label for="GGF">Gudang Garam Filter</label>
+            </div><div>
+                <input type="checkbox" name="LS" value="LS" id="Lucky Strike">
+                <label for="LS">Lucky Strike</label>
+            </div><div>
+                <input type="checkbox" name="MB" value="MB" id="Marlboro">
+                <label for="MB">Marlboro</label>
+            </div><div>
+                <input type="checkbox" name="Esse" value="Esse" id="Esse">
+                <label for="Esse">Esse</label>
+            </div>
+        </div>
+        <div>
+            <button>Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+</html>
